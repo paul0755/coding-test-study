@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * 경로 저장을 List에 저장을하였지만 큐에 넣을때마다 리스트를 새로 생성해주고 값을 복사해야하기 때문에 시간초과
- * 배열 tracked[next] = cur 이런식으로 저장을 한다음 추적하여 경로를 알 수 있음
+ * 배열 tracked[next] = cur 이런식으로 저장을 한다음 추적하여 경로를 알 수 있다.
  */
 
 public class BaekJoon_13913 {

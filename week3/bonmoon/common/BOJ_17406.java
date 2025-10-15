@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 /**
- * 배열 돌릴때 마지막 수는 저장을 해야한다.
+ * 배열 돌릴때 마지막 수는 저장을 해야한다..
  */
 public class BaekJoon_17406 {
 
