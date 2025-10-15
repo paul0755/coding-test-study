@@ -3,7 +3,7 @@ import java.util.*;
 
 /**
  * 구현 문제
- * comparator를 이용하여 람다식으로 정렬하는 방법을 잘 알아두자
+ * comparator를 이용하여 람다식으로 정렬하는 방법을 잘 알아두자.
  */
 
 public class Main {

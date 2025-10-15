@@ -2,6 +2,9 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 마지막 K 는 3개 이상이어야한다.
+ */
 public class Main {
 
     static int N, M;
