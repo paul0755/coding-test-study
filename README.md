@@ -1,7 +1,7 @@
 # 🧑‍💻 Ureca Coding Test Repository
 
 [![Kickoff](https://img.shields.io/badge/Start-2025.09.25-00b894)](#일정--운영)
-[![Week](https://img.shields.io/badge/Week-3주차-0984e3)](#📊-progress)
+[![Week](https://img.shields.io/badge/Week-4주차-0984e3)](#📊-progress)
 [![Status](https://img.shields.io/badge/Status-On--going-6c5ce7)](#📊-progress)
 [![Baekjoon](https://img.shields.io/badge/Baekjoon-OnlineJudge-2ecc71)](#)
 [![Programmers](https://img.shields.io/badge/Programmers-CodingTest-9b59b6)](#)
@@ -34,9 +34,9 @@
 ## 📊 Progress
 
 - ✅ 그래프 (BFS / DFS) — 완료  
-- ✅ **문자열** - 완료
-- 🔥 **조합론 / 완전 탐색 / 시뮬레이션** - *현재 진행 중* 🚀  
-- 🔜 백트래킹  
+- ✅ 문자열 - 완료
+- ✅ 조합론 / 완전 탐색 / 시뮬레이션
+- 🔥 **백트래킹** - *현재 진행 중* 🚀
 - 🔜 다익스트라  
 - 🔜 벨만 포드  
 - 🔜 이분 탐색  
