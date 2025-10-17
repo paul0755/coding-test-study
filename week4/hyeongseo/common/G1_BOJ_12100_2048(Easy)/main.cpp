@@ -193,13 +193,14 @@ void right()
     }
 }
 
+// 백트래킹 코드
 void getAns(int cnt)
 {
     // 5번 이동했으면 끝
     if(cnt == 5) return;
     
     int tmp[21][21];
-    memcpy(tmp, board, sizeof(board));
+    memcpy(tmp, board, sizeof(board)); // 원본 값 저장
 
     // 상, 하, 좌, 우 이동
     up();
@@ -239,7 +240,7 @@ int main()
         }
     }
 
-    getAns(0);
+    getAns(0); // 백트래킹 진행
 
     cout << ans << "\n";
 
