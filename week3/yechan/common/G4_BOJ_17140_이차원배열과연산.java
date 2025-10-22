@@ -30,8 +30,6 @@ public class G4_BOJ_17140_이차원배열과연산 {
             }
         }
 
-        // 5.다시 2차원 배열로 채우기
-
         int rowCount = 3;
         int colCount = 3;
 
@@ -42,7 +40,6 @@ public class G4_BOJ_17140_이차원배열과연산 {
             }
             if(rowCount >= colCount){
                 //R연산
-
                 List<List<Integer>> newRows = new ArrayList<>();
                 int maxCol = 0;
 
