@@ -30,7 +30,7 @@ public class G5_BOJ_3079_입국심사 {
 
         // 시간을 기준으로 이분탐색
         long lo = 1; // 최소시간 : 1분
-        long hi = arr[N-1] * M; // 최대시간
+        long hi = (long)arr[N-1] * M; // 최대시간
         // 최대시간 : 가장 느린 심사관이 모든 사람 M명을 다 심사할때 
         long answer = hi;
 
