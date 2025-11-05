@@ -100,11 +100,11 @@ public class G4_BOJ_8983_사냥꾼 {
         while(lo <= hi){
             int mid = (lo + hi) /2;
             
-            if(s[mid] <= x){
-                result = mid;
-                lo = mid + 1;
-            }else if(s[mid] > x){
+            if(s[mid] >= x){
+                result = mid; // x보다 크거나 같은 첫 사대 위치 저장
                 hi = mid - 1;
+            }else {
+                lo = mid + 1;
             }
         }
 
