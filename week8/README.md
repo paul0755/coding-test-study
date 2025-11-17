@@ -7,17 +7,18 @@
 
 ## 📂 공통 문제
 
-### 1️⃣ [BOJ 4781 - 사탕 가게](https://www.acmicpc.net/problem/4781)
+
+### 1️⃣ [BOJ 17404 - RGB 거리 2](https://www.acmicpc.net/problem/17404)
 
 
 --- 
 
-### 2️⃣ [BOJ 17404 - RGB 거리 2](https://www.acmicpc.net/problem/17404)
+### 2️⃣ [BOJ 2240 - 자두 나무](https://www.acmicpc.net/problem/2240)
 
 
 ---
 
-### 3️⃣ [BOJ 2240 - 자두 나무](https://www.acmicpc.net/problem/2240)
+### 3️⃣ [BOJ 4781 - 사탕 가게](https://www.acmicpc.net/problem/4781)
 
 
 ---
