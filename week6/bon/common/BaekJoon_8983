@@ -1,0 +1,70 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+//사냥꾼문제
+
+public class BaekJoon_8983 {
+
+
+    static int M, N;
+    static long L;
+    static long[][] animal;
+    static int[] killer;
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        M = sc.nextInt();
+        N = sc.nextInt();
+        L = sc.nextInt();
+        killer = new int[M];
+        animal = new long[N][2];
+
+        for (int i = 0; i < M; i++) {
+            killer[i] = sc.nextInt();
+        }
+
+        for (int i = 0; i < N; i++) {
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            animal[i][0] = x;
+            animal[i][1] = y;
+        }
+
+        Arrays.sort(killer);
+
+
+        int answer = binarySearch();
+        System.out.println(answer);
+
+
+    }
+
+    private static int binarySearch() {
+
+        int result = 0;
+        for (int i = 0; i < N; i++) {
+            long ax = animal[i][0];
+            long ay = animal[i][1];
+
+            long st = ax - (L - ay);
+            long end = ax + (L - ay);
+
+
+            if (ay > L) continue;
+
+            int index = Arrays.binarySearch(killer, (int) st);
+            if (index < 0) index = -(index + 1);
+
+            if (index< killer.length && killer[index]<=end) {
+                result++;
+            }
+
+
+        }
+
+
+        return result;
+    }
+}

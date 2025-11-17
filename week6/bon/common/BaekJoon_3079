@@ -1,0 +1,56 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+// 입국 심사
+
+public class BaekJoon_3079 {
+
+    static int N, M;
+    static long[] arr;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        N = sc.nextInt();
+        M = sc.nextInt();
+
+        arr = new long[N];
+        for (int i = 0; i < N; i++) {
+            arr[i] = sc.nextInt();
+        }
+        Arrays.sort(arr);
+
+        long answer = binarySearch();
+        System.out.println(answer);
+    }
+
+    private static long binarySearch() {
+        long start = 1;
+        long end = 0;
+
+        for (int i = 0; i < N; i++) {
+            end = Math.max( arr[i] * M, end);
+        }
+
+        long result = end;
+
+        while (start <= end) {
+            long mid = (start + end) / 2;
+            long count = 0;
+
+            for (int i = 0; i < N; i++) {
+                count += mid / arr[i];
+                if(count>=M) break;
+            }
+
+            if (count >= M) {
+                result = mid;
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+
+        return result;
+    }
+}
