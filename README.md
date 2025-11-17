@@ -99,5 +99,12 @@
             <br />
             <a href="https://github.com/HyeongseoShin">신형서</a>
         </td>
+              <td align="center" width="200px">
+            <a href="https://github.com/inhooo00">
+                <img height="150px" width="150px" src="https://avatars.githubusercontent.com/dnwldla"/>
+            </a>
+            <br />
+            <a href="https://github.com/dnwldla">임지우</a>
+        </td>
     </tr>
 </table>
