@@ -1,29 +1,29 @@
-# 📘 5주차 문제집: 다익스트라
+# 📘 5주차 문제집: 다이나믹 프로그래밍
 
-이번 주제는 **다익스트라** 입니다.  
+이번 주제는 **다이나믹 프로그래밍** 입니다.  
 아래의 공통 문제들을 풀이하고, 추가적으로 개인 문제 2개 이상을 풀어주세요.
 
 ---
 
 ## 📂 공통 문제
 
-### 1️⃣ [BOJ 2665 - 미로 만들기](https://www.acmicpc.net/problem/2665)
+### 1️⃣ [BOJ 4781 - 사탕 가게](https://www.acmicpc.net/problem/4781)
 
 
 --- 
 
-### 2️⃣ [BOJ 10282 - 해킹](https://www.acmicpc.net/problem/10282)
+### 2️⃣ [BOJ 17404 - RGB 거리 2](https://www.acmicpc.net/problem/17404)
 
 
 ---
 
-### 3️⃣ [BOJ 2151 - 거울 설치](https://www.acmicpc.net/problem/2151)
+### 3️⃣ [BOJ 2240 - 자두 나무](https://www.acmicpc.net/problem/2240)
 
 
 ---
 
 ## 📝 제출 방법
-- 각자 `week5` 폴더 안에 **본인 이름**으로 된 폴더를 생성합니다.  
+- 각자 `week8` 폴더 안에 **본인 이름**으로 된 폴더를 생성합니다.  
 - 해당 폴더 안에  
   - `common` → 공통 문제 풀이  
   - `personal` → 개인 문제 풀이  
