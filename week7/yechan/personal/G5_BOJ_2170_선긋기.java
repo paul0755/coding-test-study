@@ -7,6 +7,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/*
+    1차시도 : 살패
+    boolean 배열 접근 -> 메모리 초과문제 및 인덱스 마이너스 구간 커버x
+    set 자료구조 -> 메모리, 시간 초과
+    
+    2차시도 : gpt 힌트
+    구간 병합
+    핵심
+    1. 들어온 좌표들을 list에 저장
+    2. 앞 좌표를 기준으로 정렬
+    3. 앞 좌표에 end위치와 다음 좌표에 start위치를 비교
+    4. 앞end >= 뒤start  -> 앞 end = 뒤 end (구간 병합)
+    5. 위 비교에 해당안하면 total += 앞 - 뒤 (길이 계산) 
+
+*/
+
 public class G5_BOJ_2170_선긋기 {
 
     static class Line{
