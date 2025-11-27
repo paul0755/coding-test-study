@@ -8,6 +8,9 @@ import java.util.StringTokenizer;
  * 
  * 나중에 다시 보기 -> 너무 어려움
  * 
+ * dp[t][w] = t초까지, w번 이동해서 얻을 수 있는 최대 자두 수
+ * 
+ * 위치는 움직임으로 도출이 가능하여 따로 안넣어도 된다함.
  */
 
 public class G4_BOJ_2240_자두나무 {
