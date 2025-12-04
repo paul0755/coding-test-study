@@ -18,7 +18,7 @@ public class Main {
     static int[][][] priorityDir; // 각 상어의 방향마다 다음 위치로 이동할 우선순위 방향
     static int[][] position; // 현재 상어 위치 [M+1][2] 로 선언해 각 상어의 위치를 기록
     static boolean[] exist;  //상어탈락 여부
-    static int time;  //정답 시간
+    static int time;  //정답 시간 z
 
     static int[] dx = {999,0, 0, -1, 1};  // index 1부터 시작 위 아래 왼쪽 오른쪽
     static int[] dy = {999,-1, 1, 0, 0};
