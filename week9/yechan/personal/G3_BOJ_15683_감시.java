@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
+ * 삼성 SW 역랑테스트 A형 기출 문제
  * 생각 흐름 
  * 
 1. map에서 CCTV 좌표와 타입만 cctvList에 저장한다.
@@ -27,6 +28,8 @@ import java.util.StringTokenizer;
 방향을 받아서 ny += dy[d]로 계속 진행
 
 2. 모든 경우를 다 봐서 비교해야할 때 -> dfs
+
+3. “방향 조합”을 미리 dirs 배열에 정리하는 것이 핵심 설계
  * 
  * 
  */
