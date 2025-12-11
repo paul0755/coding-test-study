@@ -1,0 +1,77 @@
+//
+import java.util.*;
+class Solution {
+    public String solution(String new_id) {
+        String answer = new_id;
+
+        // 1
+        answer = new_id.toLowerCase();
+        // 2
+        String[] input = answer.split("");
+        for(int i=0 ;i<input.length;i++){
+            if((input[i].charAt(0) >= 'a' && input[i].charAt(0) <= 'z') ||
+              (input[i].charAt(0) >= '0' && input[i].charAt(0) <= '9') ||
+              input[i].equals("-") || input[i].equals("_") || input[i].equals(".")) continue;
+            input[i]="";
+        }
+        String input2 = "";
+        for(String s : input){
+            input2 +=s;
+        }
+        String[] input3 = input2.split("");
+
+        //3
+        List<Integer> list = new ArrayList<>();
+        for(int i=1 ;i<input3.length;i++){
+            if(input3[i-1].equals(".") && input3[i].equals(".")) list.add(i);
+        }
+        for(Integer i : list){
+            input3[i] = "";
+        }
+        input2 = "";
+        for(String s : input3){
+            input2 +=s;
+        }
+        String[] input4 = input2.split("");
+
+        //4
+        if(input4[0].equals(".")) input4[0] = "";
+        if(input4[input4.length-1].equals(".")) input4[input4.length-1] = "";
+        input2 = "";
+        for(String s : input4){
+            input2 +=s;
+        }
+
+        //5
+        if(input2.equals("")) input2 += "a";
+        String[] input5 = input2.split("");
+
+        //6
+        String newString = "";
+        if(input2.length() >=16){
+            newString = input2.substring(0,15);
+            if(newString.charAt(14) == '.') newString = newString.substring(0,14);
+            return newString;
+        }
+
+        //7
+        if(input2.length() > 2) {
+            return input2;
+        }
+        else{
+            String newString3 = "";
+        if (input2.length() ==1) {
+            newString3 += input2.charAt(0);
+            newString3 += input2.charAt(0);
+            newString3 += input2.charAt(0);
+        }
+        if (input2.length() ==2) {
+            newString3 += input2.charAt(0);
+            newString3 += input2.charAt(1);
+            newString3 += input2.charAt(1);
+        }
+        return newString3;
+        }
+
+    }
+}
