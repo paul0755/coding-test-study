@@ -44,7 +44,9 @@ public class S2_BOJ_21736_헌내기dfs {
     private static void dfs(int y, int x) {
         
         visited[y][x] = 1;
+
         if(map[y][x] == 'P') cnt++;
+        
         for(int d=0; d<4; d++){
             int ny = y + dy[d];
             int nx = x + dx[d];
