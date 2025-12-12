@@ -1,7 +1,7 @@
 # 🧑‍💻 Ureca Coding Test Repository
 
 [![Kickoff](https://img.shields.io/badge/Start-2025.09.25-00b894)](#일정--운영)
-[![Week](https://img.shields.io/badge/Week-10주차-0984e3)](#📊-progress)
+[![Week](https://img.shields.io/badge/Week-11주차-0984e3)](#📊-progress)
 [![Status](https://img.shields.io/badge/Status-On--going-6c5ce7)](#📊-progress)
 [![Baekjoon](https://img.shields.io/badge/Baekjoon-OnlineJudge-2ecc71)](#)
 [![Programmers](https://img.shields.io/badge/Programmers-CodingTest-9b59b6)](#)
@@ -42,7 +42,8 @@
 - ✅ 그리디 알고리즘
 - ✅ 다이나믹 프로그래밍 (DP)
 - ✅ 구현
-- 🔥 **그래프, 문자열, 이분 탐색 (복습)** - *현재 진행 중* 🚀
+- ✅ 그래프, 문자열, 이분 탐색 (복습)
+- 🔥 **백트래킹, 구현, 이분 탐색 (복습)** - *현재 진행 중* 🚀
 - 🔜 투 포인터 (Two Pointer)  
 - 🔜 벨만 포드  
 - 🔜 최소 신장 트리 (MST)  
