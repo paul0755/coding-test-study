@@ -1,5 +1,3 @@
-package week10.yechan.personal;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
